@@ -19,6 +19,8 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.conf.default
 echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
 
+echo 'src-git kiddin9_packages https://dl.openwrt.ai/latest/packages/mips_24kc/kiddin9' >>feeds.conf.default
+
 echo 'src-git mentohust https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk' >>feeds.conf.default
 
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
