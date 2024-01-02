@@ -21,5 +21,5 @@ echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-pa
 
 #echo 'src-git kiddin9_packages https://dl.openwrt.ai/latest/packages/mips_24kc/kiddin9' >>feeds.conf.default
 
-git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk
+git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust.git
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
